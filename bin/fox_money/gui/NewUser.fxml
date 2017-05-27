@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitMenuButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fox_money.gui.NewUserController">
+   <children>
+      <ImageView fitHeight="132.0" fitWidth="135.0" layoutX="78.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="77.0" AnchorPane.topAnchor="25.0">
+         <image>
+            <Image url="@../../../7d2f7e06.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="31.0" layoutY="162.0" prefHeight="38.0" prefWidth="242.0" text="New User Account " textAlignment="CENTER" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="162.0">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="31.0" layoutY="223.0" text="User name" AnchorPane.leftAnchor="25.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameUser" layoutX="130.0" layoutY="221.0" prefHeight="30.0" prefWidth="132.0" AnchorPane.rightAnchor="20.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="31.0" layoutY="267.0" text="Base currency" AnchorPane.leftAnchor="25.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <SplitMenuButton fx:id="mainCur" layoutX="133.0" layoutY="262.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="132.0" text="Currency" AnchorPane.rightAnchor="20.0">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </SplitMenuButton>
+      <Button layoutX="78.0" layoutY="317.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Create New User" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="78.0" AnchorPane.rightAnchor="77.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
