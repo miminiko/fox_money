@@ -1,4 +1,0 @@
-﻿Mimi USD 150 1 
-Кошелек 150 USD 0 2 
-1 2 5 100 USD 0 balance  
-2017 2 16 50 USD 0 plat  
